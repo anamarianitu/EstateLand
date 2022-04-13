@@ -1,0 +1,18 @@
+.singleViewingPageContainer{
+    flex: 4;
+    padding: 20px;
+}
+
+.viewingInfoInputs{
+    width: 800px;
+}
+
+.propertyInfoAddress{
+    width: 500px;
+    display: flex;
+}
+
+.propertyInfoAddressValue{
+    font-weight: 300;
+    padding-left: 80px;
+}

@@ -1,0 +1,96 @@
+
+.cardNews{
+    background-color: 0 0 0.9375em rgba(0, 0, 0, 0.219);
+    box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.219);
+    width: 70%;
+    border-radius: 4px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  .cardNewsHero{
+    flex: 0 0 40%;
+    position: relative;
+  }
+  
+  .cardNewsImg{
+    display: block;
+    width: 100%;
+  }
+  
+  .cardNewsMiddle{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  .cardNewsMiddle-text{
+    background: rgb(193, 233, 205);
+    font-size: 14.5px;
+    font-weight: 600;
+    border-radius: 2px;
+    padding: 10px 22px;
+    box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.219);
+  }
+  
+  .cardNewsContent{
+    flex: 1;
+    padding: 35px 35px 25px 35px;
+    margin-top: 30px;
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cardNewsInfo{
+    display: flex;
+    flex-direction: column;
+  
+    margin-bottom: auto;
+  }
+  
+  .cardNewsPrice{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  
+  .cardNewsAddress{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 8px;
+  }
+  
+  .cardNewsDetails{
+    font-size: 12.5px;
+    font-weight: 400;
+  }
+  .cardNewsButtons{
+    width: 100%;
+  
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .card__btn:hover{
+    border-bottom: 1px solid rgb(4, 9, 24);
+  }
+  
+  .card__btn:not(:last-child){
+    margin-right: 10px;
+  }
+  
+  .extraButtonsLink{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .likeButton{
+    background-color: rgb(245, 182, 182);
+  }
+  

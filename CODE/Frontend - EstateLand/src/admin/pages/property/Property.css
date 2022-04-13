@@ -1,0 +1,130 @@
+.property {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .propertyTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .propertyAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .propertyTop {
+    display: flex;
+  }
+  
+  .propertyTopLeft,
+  .propertyTopRight {
+    flex: 1;
+  }
+  
+  .propertyTopRight {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .propertyInfoImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .propertyInfoTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .propertyName {
+    font-weight: 600;
+  }
+  
+  .propertyInfoBottom {
+    margin-top: 10px;
+  }
+  
+  .propertyInfoItem {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .propertyInfoValue {
+    font-weight: 300;
+  }
+  
+  .propertyBottom {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .propertyForm {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .propertyFormLeft {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .propertyFormLeft > label {
+    margin-bottom: 10px;
+    color: gray;
+  }
+  
+  .propertyFormLeft > input {
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .propertyFormLeft >select{
+    margin-bottom: 10px;
+  }
+  
+  .propertyUploadImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .propertyFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .propertyUpload{
+    display: flex;
+    align-items: center;
+  }
+  
+  .propertyButton{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+  }

@@ -1,0 +1,107 @@
+.overviewPropertyContainer{
+    background-color: rgb(172, 172, 172);
+    width: 100%;
+    height: auto;
+    padding: 200px 10px 25px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.imageSliderContainer{
+    width: 55%;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.generalDetailsContainer{
+    width: 45%;
+    height: 400px;
+    background-color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.generalDetailsTitle{
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    padding-top: 35px;
+}
+
+.generalDetailsPrice{
+    padding: 30px 10px 10px 20px;
+}
+
+.generalDetailsShortDesc{
+    padding: 30px 10px 10px 20px;
+}
+
+.overviewTitle{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.customTable {
+    width: 50%;
+    background-color: #FFFFFF;
+    border-collapse: separate;
+    border-width: 1px;
+    border-color: #D7DEDE;
+    border-style: solid;
+    color: #000000;
+    margin: 30px auto;
+  }
+  
+  table.customTable td, table.customTable th {
+    border-width: 1px;
+    border-color: #D7DEDE;
+    border-style: solid;
+    padding: 5px;
+  }
+  
+  table.customTable thead {
+    background-color: #B1B5B2;
+  }
+  .planViewingForm{
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      height: 40%;
+      justify-content: space-around;
+      margin: auto;
+      background-color: rgba(247, 247, 247, 0.349);
+  }
+  .planViewingCalendarTime{
+      margin: 15px;
+      width: 900px;
+      height: 50px;
+  }
+  .savePropertyToFavourites {
+	background-color:#fa939c;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 3px #cf2d69;
+    width: 150px;
+    transition: 0.5s;
+    margin: auto;
+    margin-left: 75%;
+    margin-bottom: 4%;
+    border: none;
+}
+.savePropertyToFavourites:hover {
+	background-color:#c23a5c;
+}
+.savePropertyToFavourites:active {
+	position:relative;
+	top:1px;
+}

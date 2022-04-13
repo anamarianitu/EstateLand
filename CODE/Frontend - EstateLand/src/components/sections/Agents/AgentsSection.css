@@ -1,0 +1,83 @@
+.agentsSection{
+    background: linear-gradient(#f9f7eb, #f9f7eb 50%, #fff 50%, #fff 100%);
+}
+
+.boxArea
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.agentsTitle{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 25px;
+}
+.boxArea .card
+{
+   width: 230px;
+   height: 316px;
+   padding: 10px 15px;
+   margin: 20px;
+   background: #e8ebe8;
+   box-shadow: 0 15px 45px rgba(0,0,0,.1);
+}
+.boxArea .card .content
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.boxArea .card .content .imgBx
+{
+   width: 120px;
+   height: 180px;
+   border-radius: 50%;
+   position: relative;
+   margin-bottom: 20px;
+   overflow: hidden;
+}
+.boxArea .card .content .imgBx img
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.boxArea .card .content .contentBx h4
+{
+   color: black;
+   font-size: 1.7rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1px;
+}
+.boxArea .card .content .contentBx h5
+{
+   color: #6c758f;
+   font-size: 1.2rem;
+   font-weight: bold;
+   text-align: center;
+}
+.boxArea .card .content .sci
+{
+   margin-top: 20px;
+}
+.linkSocialAgent
+{
+   text-decoration: none;
+   color: #6c758f;
+   font-size: 30px;
+   margin: 10px;
+   transition: color 0.4s;
+}
+.linkSocialAgent:hover
+{
+   color: #1ff130;
+}

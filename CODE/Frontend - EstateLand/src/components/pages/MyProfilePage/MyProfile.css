@@ -1,0 +1,129 @@
+.myProfilePage{
+    background-color: rgb(21, 46, 32);
+    width: 100%;
+    height: auto;
+    padding: 50px 10px 25px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.myProfileContainer{
+    position: relative;
+    margin-top: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    display: flex;
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+  }
+  
+  .myProfileContainer .profileLeft{
+    width: 35%;
+    background: linear-gradient(to right,#f2f7f3,#58865f);
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .myProfileContainer .profileLeft img{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 250px;
+  }
+  
+  .myProfileContainer .profileLeft h4{
+    margin-bottom: 10px;
+  }
+  
+  .myProfileContainer .profileLeft p{
+    font-size: 12px;
+  }
+  
+  .myProfileContainer .profileRight{
+    width: 65%;
+    background: #fff;
+    padding: 30px 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .myProfileContainer .profileRight .profileInfo,
+  .myProfileContainer .profileRight .projects{
+    margin-bottom: 25px;
+  }
+  
+  .myProfileContainer .profileRight .profileInfo h3,
+  .myProfileContainer .profileRight .projects h3{
+      margin-bottom: 15px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #e0e0e0;
+      color: #353c4e;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  
+  .myProfileContainer .profileRight .info_data,
+  .myProfileContainer .profileRight .projects_data{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .myProfileContainer .profileRight .info_data .data,
+  .myProfileContainer .profileRight .projects_data .data{
+    width: 35%;
+  }
+  
+  .myProfileContainer .profileRight .info_data .data h4,
+  .myProfileContainer .profileRight .projects_data .data h4{
+      color: #353c4e;
+      margin-bottom: 5px;
+  }
+  
+  .myProfileContainer .profileRight .info_data .data p,
+  .myProfileContainer .profileRight .projects_data .data p{
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #919aa3;
+  }
+  
+  .myProfileContainer .social_media ul{
+    display: flex;
+  }
+  
+  .myProfileContainer .social_media .profileButton{
+    margin-right: 10px;    
+  }
+
+  .resetPassword{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .resetPasswordData{
+    margin: 20px 5px;
+  }
+
+  .resetPasswordData>p{
+    margin: 20px 5px;
+    font-style: italic;
+    color: gray;
+  }
+
+  .mySavedPropertiesTitleContainer{
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .mySavedPropertiesTitle{
+    text-align: center;
+  }
+  
+  .packagesContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+  }

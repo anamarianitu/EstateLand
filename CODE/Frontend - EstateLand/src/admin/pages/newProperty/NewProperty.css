@@ -1,0 +1,44 @@
+.newProperty {
+    flex: 4;
+  }
+  
+  .addPropertyForm {
+    margin-top: 10px;
+  }
+  
+  .addPropertyItem {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .addPropertyItem > label {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .addPropertyItem > input {
+    padding: 10px;
+  }
+  
+  .addPropertyItem > select {
+    padding: 10px;
+  }
+  
+  .addPropertyButton {
+    width: 290px;
+    height: 40px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .addPropertyButton:hover{
+    background-color: rgb(25, 25, 204);
+  }

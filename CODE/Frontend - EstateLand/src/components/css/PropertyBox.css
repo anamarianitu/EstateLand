@@ -1,0 +1,104 @@
+/* section{
+  height: 42vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.cardProperty{
+  background-color: 0 0 0.9375em rgba(0, 0, 0, 0.219);
+  box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.219);
+  width: 70%;
+  border-radius: 4px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.cardPropertyHero{
+  flex: 0 0 50%;
+  position: relative;
+}
+
+.cardPropertyImg{
+  display: block;
+  width: 100%;
+}
+
+.cardPropertyMiddle{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.cardPropertyMiddle-text{
+  background: rgb(193, 233, 205);
+  font-size: 15.5px;
+  font-weight: 600;
+  border-radius: 2px;
+  padding: 10px 22px;
+  box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.219);
+}
+
+.cardPropertyContent{
+  flex: 1;
+  padding: 15px 35px 25px 35px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardPropertyInfo{
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: auto;
+}
+
+.cardPropertyPrice{
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 26px;
+  margin: 15px 0 20px 0;
+}
+
+.cardPropertyAddress{
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.cardPropertyDetails{
+  font-size: 12.5px;
+  font-weight: 400;
+}
+.cardPropertyButtons{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card__btn:hover{
+  border-bottom: 1px solid rgb(4, 9, 24);
+}
+
+.card__btn:not(:last-child){
+  margin-right: 10px;
+}
+
+.extraButtonsLink{
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+.divRentSale{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  background-color: rgba(228, 208, 34, 0.514);
+  font-style: italic;
+  border-radius: 10%;
+}

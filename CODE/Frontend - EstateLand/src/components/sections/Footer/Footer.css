@@ -1,0 +1,135 @@
+footer{
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background-color: rgb(35, 37, 36);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .footerContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .footerContainer .sec{
+    margin-right: 30px;
+}
+
+footer .footerContainer .sec.aboutUs{
+    width: 40%;
+}
+
+footer .footerContainer h2{
+    position: relative;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 35px;
+
+}
+footer .footerContainer h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 110px;
+    height: 2px;
+    background-color: rgb(29, 170, 36);
+
+}
+
+footer p{
+    color: #999;
+}
+
+.sci {
+    margin-top: 20px;
+    display: flex;
+}
+.sci li{
+    list-style: none;
+}
+
+.fLogo{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #85bba1;
+    font-size: 30px;
+    margin: 10px;
+    transition: color 0.4s;
+}
+.fLogo:hover{
+    color: #b3c0b9;
+}
+
+.quickLinks{
+    position: relative;
+    width: 25%;
+} 
+
+.quickLinks ul li{
+    list-style: none;
+}
+
+.quickL{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+} 
+
+.quickL:hover{
+    color: white;
+}
+
+.contact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .footerInfo{
+    position: relative;
+}
+
+.contact .footerInfo li{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .footerInfo li span:nth-child(1){
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .footerInfo li span{
+    color: #999;
+}
+
+@media (max-width: 991px){
+    footer{
+        padding: 40px;
+    }
+    footer .footerContainer{
+        flex-direction: column;
+    }
+    footer .footerContainer .sec{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .footerContainer .sec.aboutUs, .quickLinks, .contact{
+        width: 100%;
+    }
+
+}

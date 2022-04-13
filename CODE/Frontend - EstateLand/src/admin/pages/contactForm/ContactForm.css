@@ -1,0 +1,23 @@
+.contactFormSinglePage{
+    flex: 4;
+}
+.contactFormSinglePageContainer{
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.contactFprmInputs{
+    width: 100%;
+}
+.contactFormSendEmail{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgb(6, 50, 131);
+    color: white;
+    margin: 60px 40px;
+}
+
+.contactFormSendEmail:hover{
+    background-color: rgb(13, 13, 82);
+}
